@@ -3,14 +3,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from .info import get_movie
 
 START_TEXT = """Merhaba {}
-Ben film botuyum.
-> `Ben sana aradığın film hakkında info vereceğim`
-@wertinium"""
+Sana istediğin Film ile ilgili Bilgi vereceğim"""
 
 JOIN_BUTTONS = [
     InlineKeyboardButton(
         text='Blog Kanalıma katılın',
-        url='https://telegram.me/wertinium'
+        url='https://telegram.me/mmagneto3'
     )
 ]
 
